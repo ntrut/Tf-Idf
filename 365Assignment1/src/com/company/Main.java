@@ -28,30 +28,6 @@ public class Main {
         //table.printOne("Carlos Santo, NMD");
         System.out.println(stuff.get_similiar("Enterprise Rent-A-Car"));
 
-        /*
-        for(int i = 0; i < businessesNames_array.length; i++)
-        {
-            table.put(businessesNames_array[i], businessesIDs_array[i],reviews_array[i], i);
-        }
-
-        String test = "Nazar is lovely";
-        //table.printAll();
-        table.printFreqTables();
-        System.out.println(table.get("Pet Planet"));
-        System.out.println("Hash: " + test.hashCode());
-        System.out.println(test.hashCode() & 20);
-
-        String[] word = test.split("\\W+");
-        for(int i = 0; i < word.length; i++)
-        {
-            System.out.println(word[i].toLowerCase(Locale.ROOT));
-        }
-
-        System.out.println("*********************************************************");
-
-         */
-
-
-
+        
     }
 }
