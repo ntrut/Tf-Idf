@@ -108,26 +108,11 @@ public class ifidf
                         }
                         System.out.println(index + " SIMILIARTY FINANLLLYYY: " + v);
                     }
-
             }
-
-
-
-
         }
-
-
         System.out.println("We found that " + yes + " with " + max + " " + " is equal to " + business_name);
         System.out.println(business_name + " review: " + text);
         System.out.println(yes + " review: " + intable);
         return "";
     }
-
-
 }
-
-
-/*NEXT STEPS:
-* 1. CREATE A WAY TO CALCULATE EACH IF-IDF VALUE FOR EACH REVIEW
-* 2. FIGURE OUT HOW TO CALCULATE A SIMILARITY USING COSINE
-* 3. USE A FOR LOOP TO LOOP EACH REVIEW, GET THERE IF-IDF VALUE, CALCULATE ITS COSINE VALUE AND COMPARE IT TO THE INPUT COSINE VALUE*/
